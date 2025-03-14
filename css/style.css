@@ -23,13 +23,15 @@ header div {
 }
 
 header img {
-    width: 85px;
-    height: 85px;
+    width: 10%;
+    aspect-ratio: 1 / 1;
+    align-items: center;
 }
 
 nav {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 nav ul {
